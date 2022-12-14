@@ -1,0 +1,9 @@
+# to do list in project 3
+- Add regularization to PDE solver
+- Grid search on learning, regularization params and network architecture
+- Solve PDE numerically using explicit euler
+- Solve last task on computing eig. vec.s and val.s for symmetric matrices
+- Put above task in context of solving differential equations (numerically???)
+- Write down the analytical solution of the PDE in the report
+- Add discussion on specifics for solving PDEs with neural networks, ref Jacobian and Hessian matrices, specify how this was implemented?
+- Quick and dirty bias variance tradeoff for regression problem to gain 20 xtra points (last priority)
