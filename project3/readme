@@ -21,3 +21,6 @@ check_bcs_neural_pde_solver_test_data.py  gs_eta_lambda_nn_pde.py        numeric
 boundary conditions for a case              grid search on the learning  the numerical euler scheme    for the neural pde solver     implementation for pytorch tensors
 where the data is split in training         and regularisation params    to solve the pde
 and test sets
+
+Dependencies
+- numpy, pytorch, sklearn, matplotlib
