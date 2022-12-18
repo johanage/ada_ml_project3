@@ -1,0 +1,23 @@
+bias_var_tradeoff_dtree.py                comp_nn_numerical_pde_sol.py  gs_neurons_layers_nn_pde.py     ode_nn.py               simple_neural_network.py
+- bias var tradeoff for the decision      - generates plots that 	- generates the grid search     - main for neural 	- main for the neural ode
+tree by varying the depth of the            compare the numerical and    plots for the network         ode sobver                 solver
+decision tree. the sklearn decision         neural pde solver            architecture
+tree regressor was used.
+
+bias_var_tradeoff_nn.py                   neural_network.py             ode_setup.py                   simple_pde_neural_network.py
+- bias var tradeoff for the feed forward  - the implementation of the   - setup for the nural          - generates pcolormesh, 3d plots, bc plots and
+neural network. a simple implementation    FFNN from project2           ODE solver that was used       slice plots for the neural pde solver and contains
+of an MLP was used in this case                                         as a stepping stone in         the implementation of the neural pde solver
+                                                                        implementing the neural 
+									PDE solver
+
+bias_var_tradeoff_reg.py                  gen_reg_data.py               optimization.py                 solve_eigval_nn.py
+- the bias var tradeoff for ridge         - script generating data      - generalized optimizer         - implementation of 
+regression by varying the polynomial      for the bias var tradeoff     imlementation for pytorch      neural eigenvalue solver
+degree                                     analysis                     tensors                        using pytorch
+
+check_bcs_neural_pde_solver_test_data.py  gs_eta_lambda_nn_pde.py        numerical_sol_pde.py          plot_pde_sol_nn.py            test_optimizer.py
+- generates the plots of the              - produces the plots for the   - the implementation of	- generates plots            -test script for the optimization
+boundary conditions for a case              grid search on the learning  the numerical euler scheme    for the neural pde solver     implementation for pytorch tensors
+where the data is split in training         and regularisation params    to solve the pde
+and test sets
