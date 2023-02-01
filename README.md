@@ -1,5 +1,5 @@
 # ada_ml_project3
-A simple project on population growth comparing numerical, NN and stochastic NN solutions of the ODE or SDE respectively.
+A simple project on neural pdes.
 
 # Requirements
 - download ada_ml_project2 and add repo to PYTHONPATH
